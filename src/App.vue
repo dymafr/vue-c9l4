@@ -1,6 +1,6 @@
 <template>
   <Enfant>
-    <template #hearder>
+    <template #header>
       <h1>Titre de l'article</h1>
     </template>
     <p>
@@ -25,11 +25,11 @@
 import Enfant from './Enfant.vue';
 import AppButton from './AppButton.vue';
 
-const bottm = 'cta';
+const bottom = 'cta';
 </script>
 
 <style scoped lang="scss">
-.container {
-  color: blue;
+p {
+  color: red;
 }
 </style>
